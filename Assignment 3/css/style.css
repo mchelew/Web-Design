@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, p {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+p {
+    padding-right:20px;
+}
+.container {
+	width:1000px;
+	margin:0 auto;
+}
+.grid__col {
+	background-color:#CCC;
+    margin-bottom:20px;
+}
+.header img {
+    margin:20px 0;
+}
+.topnav {
+    float:right;
+    display:inline-block;
+    position:relative;
+    text-align: right;
+    padding-right:20px;
+}
+.topnav a {
+    font:bold 16pt/68px 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color:#666;
+    text-decoration:none;
+}
+.topnav a:active, topnav a:hover {
+    color:#999;
+    text-decoration:underline;
+}
+iframe {
+    padding:20px;
+}

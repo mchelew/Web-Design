@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* CSS Document */
+
+Body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:12pt;
+}
+html { 
+  background: url(Images/Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-size:28pt;
+}
+.container {
+	width:960px;
+	margin:10px auto 10px auto;
+	position:relative;
+	overflow:visible;
+	min-height:100%;
+	margin-bottom:80px;
+}
+.container:after {
+	content: "";
+	display:block;
+}
+.footer, .container:after {
+	height:80px;
+}
+.footer {
+	background:rgba(44,45,80,0.50)
+}
+.footer p {
+	margin:20px auto;
+	text-align:center;
+	color:white;
+	padding-top:20px;
+}
+.leftColumn {
+	float:left;
+	width:250px;
+	margin-right:20px;
+}
+.rightColumn { 
+	float:left;
+	width:690px;
+}
+.nav {
+	width:250px;
+	margin:0;
+	padding:0ff;
+}
+.nav ul {
+	list-style-type:none;
+}
+.nav ul li a {
+	text-decoration:none;
+	color: #090909;
+	display:block;
+	padding:5px 5px;
+	margin-bottom:3px;
+	background-color: #040404;
+}
+.nav ul li a:visited {
+	color: #FFFFFF;
+}
+.nav ul li a:hover, .nav ul li a:current {
+	color: #FFFFFF;
+	background-color: #9E08CE;
+}
+.horizontalNav {
+	float:right;
+	height:24px;
+}
+.jumbotron {
+	width:956px;
+	height:350px;
+	margin-bottom:20px;
+	border:solid 2px #595757;
+	background:rgba(219,147,111,0.5);
+	clear:both;
+}
+.jumbotron h2 {
+	margin:20px;
+}
+.jumbotron p {
+	margin:20px;
+}
+.fourColumn {
+	width:221px;
+	height:150px;
+	position:relative;
+	float:left;
+	border:solid 2px #595757;
+	margin-right:20px;
+	margin-bottom:20px;
+	background:rgba(166,155,157,0.5);
+	display:block;	
+}
+.fourColumn p, .twoColumn p {
+	margin:20px;
+}
+.twoColumn {
+	width:466px;
+	height:150px;
+	position:relative;
+	float:left;
+	border:solid 2px #595757;
+	margin-right:20px;
+	margin-bottom:20px;
+	background:rgba(166,155,157,0.5);
+	display:block;	
+}
+.logo {
+	width:278px;
+	height:24px;
+	margin-bottom:20px;
+	float:left;
+}
+.social {
+	float:right;
+	margin-bottom:10px;
+	height:34px;
+	width:34px;
+}
+
+
+	
+
+	

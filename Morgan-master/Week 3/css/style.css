@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	width:1000px;
+	margin:0 auto;
+}
+.grid__col {
+	background-color:#CCC;
+}
+$gutter-width: 20px;
+$col_groups:6;
