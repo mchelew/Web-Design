@@ -6,7 +6,10 @@
 	margin:0 auto;
 }
 .leftnav {
-	background-color:#615A5F
+	background-color:#615A5F;
+	padding-left:0;
+	width:100%;
+	min-height:100vh;
 }
 .menu_simple ul {
 	margin: 0;
@@ -35,6 +38,7 @@
 }
 .topLogo {
 	background-color:#CCC;
+	width:100%
 }
 .pageTitle {
 	text-align:center;
@@ -47,4 +51,22 @@ article aside {
 	margin:0 0 10px 10px;
 	border:solid 1px #CCC;
 	padding:10px;
+}
+article caption {
+	clear:both;
+}
+article img {
+	float:left;
+	padding:3px;
+	border:solid 1px #ccc;
+	margin:10px 10px 10px 0;
+	max-width:250px;
+	clear:both;
+}
+.splash {
+	margin:0;
+	padding:0;
+}
+.splash img {
+	width:100%;
 }
