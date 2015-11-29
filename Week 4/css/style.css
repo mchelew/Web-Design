@@ -1,12 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
 
+h1 {
+	color:#8c7669;
+}
 .container {
 	width:1000px;
 	margin:0 auto;
 }
 .leftnav {
-	background-color:#615A5F;
+	background-color:#3f61a6;
 	padding-left:0;
 	width:100%;
 	min-height:100vh;
@@ -21,7 +24,7 @@
 	text-decoration:none;
 	color:white;
 	padding:10px 0 10px 10px;
-	background-color:#615A5F;
+	background-color:#3f61a6;
 	display:block;
 	border-bottom:solid 1px #FFF;
 }
@@ -30,11 +33,11 @@
 }
 .menu_simple ul li a:hover {
 	color: white;
-	background-color: #4A4649;
+	background-color: #35528c;
 }
 .menu_simple ul li a .current {
 	color: white;
-	background-color:#3A3639;
+	background-color:#35528c;
 }
 .topLogo {
 	background-color:#CCC;
@@ -45,6 +48,9 @@
 }
 .pageTitle h1 {
 	margin:15px auto;
+}
+article, .pageTitle {
+	background-color:#a2c5f2;
 }
 article aside {
 	float:right;
